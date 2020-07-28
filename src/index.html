@@ -19,14 +19,14 @@
     <!-- Formulario -->
     <div class="row mb-2">
       <div class="col">
-        <form>
+        <form id="notes-form">
           <div class="form-group">
             <label>Titulo</label>
-            <input type="text" class="form-control">
+            <input id="note-title" type="text" class="form-control">
           </div>
           <div class="form-group">
             <label>Mi nota</label>
-            <textarea class="form-control" rows="3"></textarea>
+            <textarea id="note-description" class="form-control" rows="3"></textarea>
           </div>
           <button type="submit" class="btn btn-primary float-right">Crear Nota</button>
         </form>
@@ -39,7 +39,7 @@
 
     </div>
     <!-- /Notas -->
-
+    <button id="clear-button" class="btn btn-warning float-right mt-3">Limpiar Mis Notas</button>
   </div>
 
 </body>
